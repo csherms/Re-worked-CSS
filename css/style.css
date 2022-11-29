@@ -87,7 +87,7 @@ button:hover {
 #ski-1 {
   width: 50%;
   height: 250px;
-  background-image: url("/images/ski-1.jpg");
+  background-image: url("../images/ski-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

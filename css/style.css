@@ -1,0 +1,183 @@
+/* Universal settings --------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Hero (Header) */
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1f2937;
+}
+
+#logo {
+  height: 80px;
+  border-radius: 10px;
+}
+
+.hero {
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.hero1 {
+  text-align: left;
+  padding-left: 200px;
+}
+
+.hero2 {
+  padding-right: 200px;
+}
+.hero3 {
+  text-align: left;
+  align-self: center;
+  padding-left: 200px;
+}
+.hero4 {
+  padding-right: 20px;
+  align-self: center;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero3 > h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+
+.hero3 > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero3 > button {
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+}
+
+#ski-1 {
+  width: 50%;
+  height: 250px;
+  background-image: url("/images/ski-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* Main (Information)*/
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  width: 100vw;
+}
+
+.main > img {
+  height: 140px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.main {
+  text-align: center;
+  margin: 20px;
+  flex: 1;
+}
+
+.main1 {
+  padding-left: 400px;
+}
+
+.main4 {
+  padding-right: 400px;
+}
+
+/* Quote */
+blockquote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 150px 400px 150px 400px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+cite {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Call to Action */
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-e;
+  flex-wrap: wrap;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 30px;
+  margin: 100px 200px 100px 200px;
+  border-radius: 10px;
+}
+
+.container-3 > h3 {
+  width: 90%;
+}
+.container-3 > p {
+  width: 90%;
+}
+
+.container-3 > button {
+  width: 10%;
+  border: 2px solid white;
+  padding: 5px 20px 5px 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 20px;
+}
